@@ -1,0 +1,387 @@
+body {
+    background-color: whitesmoke !important;
+}
+
+hr {
+    background-color: inherit;
+    border-style: dotted;
+    width: 20%;
+    height: 0.1rem;
+    border-width: 0.01rem;
+    border-color: black;
+}
+
+/* Navbar */
+
+.myNav {
+    background-image: url("/images/background.jpg");
+    height: 300px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.navbar {
+
+    background-color: transparent !important;
+    padding: 1% 4%;
+}
+
+.navbar-brand {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white !important;
+    font-size: 2rem;
+}
+
+.nav-link {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white !important;
+    margin: 1%;
+    font-size: 1.3rem;
+}
+
+.collapse {
+    padding: 0 3%;
+}
+
+/*   ------------------    */
+
+.heading {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: darkviolet;
+}
+
+/* First Container*/
+
+.name:hover {
+    color: brown;
+}
+
+.title:hover {
+    color: brown;
+}
+
+.first-container {
+    position: relative;
+    margin-top: 0;
+    text-align: center;
+}
+
+.name {
+    font-family: 'Sacramento', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 5.5rem !important;
+    color: #824c96;
+
+}
+
+.title {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 2.5rem;
+    color: slateblue;
+}
+
+/* Second Container */
+
+
+/* s1 */
+.s1 {
+    text-align: center;
+    padding: 2% 9%;
+}
+
+.s1-img {
+    border-radius: 100%;
+    width: 150px;
+    height: 100px;
+}
+
+.s1-img:hover {
+    background-color: lightblue;
+}
+
+.s1-desc {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.5rem;
+    text-align: justify;
+    line-height: 2;
+    padding: 0 26%;
+}
+
+/* s2 */
+.s2 {
+    text-align: center;
+    padding: 2% 0 5%;
+}
+
+.laptop:hover {
+    background-color: lightblue;
+}
+
+.arrow-gif {
+    position: relative;
+    top: 50px;
+}
+
+.internet:hover {
+    background-color: lightblue;
+}
+
+/* s3 & s4 */
+
+.s3-s4 {
+    padding: 0 10%;
+}
+
+/* s3 */
+
+.s3 {
+    text-align: right;
+    padding: 2% 10%;
+}
+
+.s3-img {
+
+    position: relative;
+    right: 550px;
+    bottom: 200px;
+    width: 120px;
+    height: 120px;
+}
+
+
+.s3-img:hover {
+    background-color: lightblue;
+}
+
+.s3-desc,
+.s4-desc {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.5rem;
+    line-height: 2;
+}
+
+
+/* s4 */
+.s4 {
+    text-align: left;
+    padding: 1% 10% 0;
+}
+
+.s4-img {
+    position: relative;
+    left: 550px;
+    bottom: 200px;
+}
+
+.s4-img:hover {
+    background-color: lightblue;
+}
+
+
+.s5 {
+    text-align: center;
+    padding: 2% 0;
+}
+
+.s5-img {
+    border-radius: 100%;
+    width: 150px;
+    height: 100px;
+}
+
+.s5-img:hover {
+    background-color: lightblue;
+}
+
+.s5-desc {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.5rem;
+    line-height: 2;
+    padding: 0 30%;
+}
+
+
+/* Buttons */
+
+.contact {
+    background: #824c96;
+    background-image: -webkit-linear-gradient(top, #824c96, #11999e);
+    background-image: -moz-linear-gradient(top, #824c96, #11999e);
+    background-image: -ms-linear-gradient(top, #824c96, #11999e);
+    background-image: -o-linear-gradient(top, #824c96, #11999e);
+    background-image: linear-gradient(to bottom, #824c96, #11999e);
+    -webkit-border-radius: 15;
+    -moz-border-radius: 15;
+    border-radius: 15px;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+
+.contact:hover {
+    background: #30e3cb;
+    background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+    text-decoration: none;
+}
+
+footer {
+    background-color: #162447;
+    color: white;
+    padding: 2%;
+    text-align: center;
+}
+
+/* Mobile Friendly */
+
+@media (max-width: 900px) {
+    .name {
+        font-family: 'Sacramento', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 3.5rem;
+        color: #824c96;
+
+    }
+
+    .title {
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 1.5rem;
+        color: slateblue;
+    }
+
+    .s1 {
+        text-align: center;
+        padding: 2%;
+    }
+
+    .s1-desc {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 1.5rem;
+        text-align: justify;
+        line-height: 2;
+        padding: 0 4%;
+    }
+
+    .s2 {
+        text-align: center;
+        padding: 1% 0 5%;
+    }
+    
+    .laptop {
+        height: 5rem;
+        width: 5rem;
+    }
+
+    .laptop:hover {
+        background-color: lightblue;
+    }
+    
+    .arrow-gif {
+        position: relative;
+        top: 50px;
+        height: 4rem;
+        width: 4rem;
+    }
+    
+    .internet {
+        height: 5rem;
+        width: 5rem;
+    }
+
+    .internet:hover {
+        background-color: lightblue;
+    }
+    
+    .s3-s4 {
+        padding: 0 1%;
+    }
+
+    .s3 {
+        text-align: right;
+        padding: 2% 0 0 10%;
+    }
+
+    .s3-img {
+        position: relative;
+        right: 280px;
+        top: -230px;
+        width: 5rem;
+        height: 5rem;
+    }
+
+    .s4 {
+        text-align: left;
+        padding: 1% 25% 4% 1%;
+    }
+
+    .s4-img {
+        position: relative;
+        left: 300px;
+        top: -300px;
+        width: 5rem;
+        height: 5rem;
+    }
+
+    .s5 {
+        text-align: center;
+        padding: 2% 1%;
+    }
+
+    .s5-desc {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 1.5rem;
+        line-height: 2;
+        text-align: justify;
+        padding: 0 10%;
+    }
+
+    .contact-form {
+        font-family: 'Merriweather', serif;
+        padding: 14% 0;
+    }
+
+    .contact-title {
+        font-size: 2rem;
+    }
+
+    .contact-desc {
+        color: rgba(10, 10, 128, 0.863);
+        font-weight: bold;
+        font-size: 1rem;
+    }
+
+    .contact-content {
+        font-size: 1rem;
+        padding: 1% 0;
+    }
+
+    .placeholders {
+        color: blue;
+        font-weight: bold;
+        padding: 2% 3%;
+    }
+
+    .address {
+        font-size: 1.7rem;
+        color: blue;
+        padding: 2%;
+    }
+
+    .address-desc {
+        color: rgba(10, 10, 128, 0.863);
+        font-weight: bold;
+        font-size: 1rem;
+        padding: 0 2%;
+    }
+
+    .contact-button {
+        padding: 1%;
+        font-size: 1rem;
+        font-weight: bold;
+    }
+}
