@@ -20,6 +20,6 @@ app.get("/", function(req,res){
     res.render("home");
 });
 
-app.listen(3000, function(req,res){
+app.listen(process.env.PORT || 3000, function(req,res){
     console.log("Sever started on port 3000");
 });
